@@ -3,16 +3,11 @@ title: AI @ UI
 layout: lesson-content
 ---
 
-A minimal Jekyll theme with sidebar content nav for creating lesson and workshop websites using Markdown.
+This is a resource for discovering research, activities, policies, and more about the use of Artificial Intelligence and Machine Learning at the University of Idaho. 
 
-{% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
+{% include figure.html img=site.featured-image alt="AI at UI written on a messy chalkboard"  width="75%" %}
 
-*Add your workshop abstract here!*
 
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
 
 {% include toc.html %}
 
-{% include template/credits.html %}

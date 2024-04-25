@@ -124,7 +124,7 @@ a { text-decoration: none; }
     border: 0;
 }
 .side-bar-item:hover, .side-bar-item:focus {
-    color: rgba(0, 0, 0, .85);
+    color: white !important;
     background-color: $active-nav-color;
 }
 .btn-toggle::after {
@@ -152,6 +152,7 @@ a { text-decoration: none; }
 }
 a.nav-active {
     background-color: $active-nav-color;
+    color:white !important;
 }
 #sidebar-footer {
     margin-left: 0.5rem;

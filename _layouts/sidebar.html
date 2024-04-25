@@ -123,7 +123,7 @@ layout: default
                   {% assign next_page_title = nav_pages[next_number].title %}{% assign next_page_url = nav_pages[next_number].url %}
                 {% endunless %}
               {%- endif -%}
-            <a href="{{ p.url | relative_url }}" class="side-bar-item link-dark rounded{% if page.url == p.url %} nav-active{% endif %}">
+            <a href="{{ p.url | relative_url }}" class="mb-2 side-bar-item link-dark rounded{% if page.url == p.url %} nav-active{% endif %}">
               {% capture icon%}{{p.icon | default: "house" }}{% endcapture %}
               <span class="me-2">{% include icon.html icon=icon class="me-2" %}</span>
               {{ p.nav | default: p.title }}</a>

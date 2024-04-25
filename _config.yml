@@ -20,12 +20,12 @@ description: "AI@UI is a central resource for discovering all things AI at the U
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
 # some options: code-slash file-code gear tools lightblub book bookmark-star
-title-icon: code-slash
+title-icon: cpu
 
 # keywords for meta tags used by search engines
 keywords: idaho;artificial intelligence;machine learning;
 # image for meta tags, will appear when sharing link on social media
-featured-image: "/images/uidaho-workshop.jpg"
+featured-image: "Slide2.jpg"
 
 # author name, displayed in credits
 author: evanwill
@@ -46,8 +46,8 @@ content_license_link: https://creativecommons.org/licenses/by-sa/4.0/
 #
 organization-name: "University of Idaho"
 organization-link: https://www.uidaho.edu/
-organization-logo-banner: /assets/img/uilogo_white.png
-organization-logo-nav: /assets/img/uilogo_white.png
+organization-logo-banner: /assets/img/uilogo_whitegold.png
+organization-logo-nav: /assets/img/uilogo_whitegold.png
 
 
 ##########
@@ -60,7 +60,7 @@ organization-logo-nav: /assets/img/uilogo_white.png
 header-text-color: white
 # breadcrumbs-background: 
 # breadcrumbs-text-color: 
-# active-nav-color: 
+active-nav-color: "#0d6efd"
 # link-color:
 # next-button-color:
 # text-color: 
