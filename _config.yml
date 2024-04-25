@@ -11,16 +11,19 @@
 # SITE SETTINGS
 #
 # title appears in the header
-title: Learn-Static Lesson Template
+# title of site appears in banner
+title: AI @ UI
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "AI@UI is a central resource for discovering all things AI at the U of I. "
 # title-icon appears in the header to give some pizazz (leave blank for none)
 # choose from Bootstrap Icons in _includes/bootstrap-icons
 # find names on https://icons.getbootstrap.com/ (or look in "_includes/bootstrap-icons")
 # some options: code-slash file-code gear tools lightblub book bookmark-star
 title-icon: code-slash
-# description appears in sidebar footer
-description: "Create a lesson website with markdown"
+
 # keywords for meta tags used by search engines
-keywords: "workshops, websites, gh-pages, jekyll"
+keywords: idaho;artificial intelligence;machine learning;
 # image for meta tags, will appear when sharing link on social media
 featured-image: "/images/uidaho-workshop.jpg"
 
@@ -35,14 +38,26 @@ content_license: "CC BY-SA"
 # URL to the content license
 content_license_link: https://creativecommons.org/licenses/by-sa/4.0/
 
+
+##########
+# Site/Organization Branding 
+#   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#   To remove the branding, comment out these values, or delete them. 
+#
+organization-name: "University of Idaho"
+organization-link: https://www.uidaho.edu/
+organization-logo-banner: /assets/img/uilogo_white.png
+organization-logo-nav: /assets/img/uilogo_white.png
+
+
 ##########
 # THEME CUSTOMIZATION [optional!]
 #
 # leave these commented out or blank for defaults.
 # these options tweak CSS, so should be valid CSS values.
 #
-# header-background: 
-# header-text-color: 
+# header-background: black
+header-text-color: white
 # breadcrumbs-background: 
 # breadcrumbs-text-color: 
 # active-nav-color: 

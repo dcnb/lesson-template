@@ -1,13 +1,17 @@
-<header class="py-3">
+<header class="py-3 bg-dark">
     <nav class="">
         <div class="container-xxl d-flex flex-wrap">
-            <a id="header-title" href="{{ '/' | relative_url }}" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto h4">
+            <a id="header-title" href="{{ '/' | relative_url }}" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto h1">
                 {% if site.title-icon %}<span class="me-2">{% include icon.html icon=site.title-icon %}</span>{% endif %}
                 {{ site.title }}
             </a>
-            <form class="ms-auto mb-3 mb-lg-0" role="search" id="search" onsubmit="site_search(); return false;">
-                <input id="site-search" class="form-control" type="search" placeholder="Search" aria-label="Search box">
-            </form>
+            {% if site.organization-logo-banner %}
+        <div class="col-md-3 d-none d-lg-block text-end">
+            <a  href="{{ site.organization-link }}" target="_blank" rel="noopener">
+                <img class="img-fluid" src="{{ site.organization-logo-banner | relative_url }}" title="{{ site.organization-name }}" alt="{{ site.organization-name | escape }} home" >
+            </a>
+        </div>
+        {% endif %}
         </div>
     </nav>
 </header>

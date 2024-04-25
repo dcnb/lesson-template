@@ -1,5 +1,5 @@
 ---
-title: Lesson Template
+title: AI @ UI 
 layout: lesson-content
 ---
 
